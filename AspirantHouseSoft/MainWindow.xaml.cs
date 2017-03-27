@@ -24,5 +24,10 @@ namespace AspirantHouseSoft
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Đã bấm vào button");
+        }
     }
 }

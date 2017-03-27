@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="438*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="137,171,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <CheckBox x:Name="checkBox" Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="43,176,0,0" VerticalAlignment="Top" Background="#FFFB8585"/>
+
     </Grid>
 </Window>
